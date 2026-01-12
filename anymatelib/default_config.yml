@@ -1,0 +1,73 @@
+# Default configuration for Anymate
+
+# Frame settings
+frame_width: 14.0
+frame_height: 8.0
+pixel_width: 1920
+pixel_height: 1080
+
+# Frame rate
+frame_rate: 60
+
+# Output settings
+video_dir: "./media/videos"
+image_dir: "./media/images"
+tex_dir: "./media/Tex"
+output_file: null
+
+# Quality presets
+quality_presets:
+  low:
+    pixel_width: 854
+    pixel_height: 480
+    frame_rate: 15
+  medium:
+    pixel_width: 1280
+    pixel_height: 720
+    frame_rate: 30
+  high:
+    pixel_width: 1920
+    pixel_height: 1080
+    frame_rate: 60
+  ultra:
+    pixel_width: 3840
+    pixel_height: 2160
+    frame_rate: 60
+
+# Animation settings
+default_animation_run_time: 1.0
+default_wait_time: 1.0
+
+# Camera settings
+background_color: "#000000"
+camera_class: "Camera"
+
+# OpenGL settings
+use_opengl: true
+enable_wireframe: false
+
+# Window settings
+window_size: [1280, 720]
+window_position: "auto"
+fullscreen: false
+
+# Rendering settings
+write_to_movie: false
+save_last_frame: false
+save_pngs: false
+save_as_gif: false
+transparent: false
+skip_animations: false
+
+# Interactive settings
+preview: true
+presenter_mode: false
+leave_progress_bars: false
+
+# FFmpeg settings
+ffmpeg_executable: "ffmpeg"
+video_codec: "libx264"
+pixel_format: "yuv420p"
+
+# Text settings
+text_to_replace: "[tex_expression]"

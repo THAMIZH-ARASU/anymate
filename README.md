@@ -38,10 +38,6 @@ Run the scene:
 anymate example_scenes.py SquareToCircle
 ```
 
-## Documentation
-
-For more information, visit the documentation (coming soon).
-
 ## License
 
 MIT License
